@@ -13,6 +13,6 @@ val smConfColors = lightColors(
     primaryVariant = GreenDark,
     onPrimary = Color.White,
     secondary = GreenLight,
-    onSecondary = LightYellow
+    onSecondary = Color.White
 )
 

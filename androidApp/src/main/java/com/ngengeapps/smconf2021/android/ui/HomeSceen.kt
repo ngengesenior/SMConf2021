@@ -15,7 +15,10 @@ import com.ngengeapps.smconf2021.android.R
 @Composable
 fun Home() {
     Scaffold(floatingActionButton = {
-        ExtendedFloatingActionButton(text = { Text(text = "SMCOnf") }, onClick = {  },
+        ExtendedFloatingActionButton(text =
+        { Text(text = "SMConf")
+        },
+            onClick = {  },
         icon = {Icon(Icons.Default.Menu, contentDescription = null )})
     }) {
 
